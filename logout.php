@@ -1,0 +1,11 @@
+<?php
+include('top.php');
+require('Session-set.php');
+unset($_SESSION['User_ID']);
+unset($_SESSION['User_Email']);
+unset($_SESSION['User_Password']);
+?>
+<script>window.location='login.php';</script>
+<?php
+die();
+?>
